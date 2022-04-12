@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: Roboto;
+}
+
+.container {
+  padding: 0;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.card {
+  text-align: center;
+  box-shadow: 1rem;
+}
+
+.date {
+  font-size: 16px;
+}
+
+.city {
+  font-size: 32px;
+}
+
+.container-temp{
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+
+  font-size: 70px;
+  font-weight: 700;
+
+}
+
+.weather{
+  font-size: 32px;
+}
+
+.low-high {
+  font-size: 22px;
+}
